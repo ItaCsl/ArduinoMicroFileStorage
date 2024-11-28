@@ -1,1 +1,1 @@
-MsgBox "BAD BAD BAD", 16, "BAD"
+MsgBox "BAD BAD BAD", 16+4096, "BAD"
