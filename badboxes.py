@@ -4,6 +4,7 @@ import time
 def open_badbox():
     window = tk.Toplevel()
     window.title("BAD")
+    window.attributes("-topmost", True)
 
     label = tk.Label(window, text="BAD BAD BAD", font=("Arial Narrow",100), fg="red")
     label.pack(expand=True)
